@@ -1,0 +1,107 @@
+// 顶头头部
+header{
+    background: #333;
+    .stop{
+        min-height: 36px;
+            .list{
+                @include fle();
+                li{
+                    width:145px;
+                    height:36px;
+                    line-height: 36px;
+                    font-size: 12px;
+                    @include ges();
+                    position: relative;
+                    a{
+                        color:#fff;
+                        img{
+                            margin-right: 5px;
+                        }
+                    }
+                    button{
+                        border:none;
+                        background: #333;
+                        color:#fff;
+                        padding:0px 10px;
+                    }
+                    .but{
+                        border-right:1px solid #fff;
+                    }
+                    button:hover {
+                        color:#f12020;
+                    }
+                    }
+                    li:nth-child(4){
+                        margin-right: 55px;
+                    }
+                    li:nth-child(5):hover{
+                        background: #333;
+                    }
+                    li:first-child{
+                        background: #555;
+                    }
+                    li:hover{
+                        background: #555;
+                    }
+                    .tal1{
+                        display: none;
+                        width:190px;
+                        height:200px;
+                        padding: 10px 30px;
+                        @include talge();
+                        border: none;
+                        box-shadow: 0px 0px 5px 3px #e1e0e0;
+                        .nh{
+                            font-size: 16px;
+                            a{
+                                color:blue;
+                            }
+                            a:hover{
+                                color:#f12020;
+                            }
+                        }
+                        .zh{
+                            a{
+                                color:blue;
+                            }
+                            a:hover{
+                                color:#f12020;
+                            }
+                        }
+                        .tal_s{
+                            p{
+                                height:20px;
+                                line-height: 20px;
+                                color:#cfcfcf;
+                                margin-bottom: 5px;
+                                margin-top: 10px;
+                                cursor: pointer;
+                            }
+                            p:hover{
+                                color:#f12020;
+                            }
+                            p:nth-child(even){
+                                padding-left: 43px;
+                            }
+                            p:nth-child(odd){
+                                padding-right: 43px;
+                                border-right:1px solid #cfcfcf;;
+                            }
+                        }
+                    }
+                    .gzh{
+                        @include talge();
+                        border: none;
+                    }
+                    .gw{
+                        @include talge();
+                        width:150%;
+                        @include ges();
+                        left:-72%;
+                        line-height: 50px;
+                        border: 1px solid #ccc;
+                    }
+            }
+    }
+}
+

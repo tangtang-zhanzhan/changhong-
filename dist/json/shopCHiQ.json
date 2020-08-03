@@ -1,0 +1,814 @@
+{
+    "CHiQ":{
+        "watch":{
+            "Id":"c1",
+            "name":"CHiQ电视",
+            "idImg":"../img/www/ia_200000278.jpg",
+            "list":[
+                    {
+                        "id":0,
+                        "type":"Q3T",
+                        "name":"65Q3T 65英寸超轻薄双64位全程4k超清电视",
+                        "title":"UMAX客厅影院4K超清HDR10",
+                        "img":[ "../img/www/ia_200018745.jpg",
+                            "../img/www/ia_200019046.jpg",
+                            "../img/www/ia_200018900.jpg",
+                            "../img/www/ia_200019045.jpg",
+                            "../img/www/ia_200020670.jpg",
+                            "../img/www/ia_200020672.jpg",
+                            "../img/www/ia_200020671.jpg",
+                            "../img/www/W02017072165Q3T.jpg"
+                        ],
+                        "price":8297.00,
+                        "size":65
+                    },
+                    {
+                        "id":1,
+                        "type":"Q3T",
+                        "name":"50Q3T 50英寸超轻薄双64位全程4K超清电视",
+                        "title":"轻薄双64位全程4K超清电视",
+                        "img":[
+                            "../img/www/ia_200018912.jpg",
+                            "../img/www/ia_200019046.jpg",
+                            "../img/www/ia_200018900.jpg",
+                            "../img/www/ia_200019045.jpg",
+                            "../img/www/ia_200020670.jpg",
+                            "../img/www/ia_200020672.jpg",
+                            "../img/www/ia_200020671.jpg",
+                            "../img/www/W02017072150Q3T.jpg"
+                        ],
+                        "price":2399.00,
+                        "size":50
+                    },
+                    {
+                        "id":2,
+                        "type":"Q3T",
+                        "name":"55Q3T 55英寸超轻薄双64位全程4K超清智能液晶平板电视 ",
+                        "title":"无缝折弯人工智能双频wifi",
+                        "img":[ "../img/www/ia_200004253.jpg",
+                            "../img/www/ia_200019046.jpg",
+                            "../img/www/ia_200018900.jpg",
+                            "../img/www/ia_200019045.jpg",
+                            "../img/www/ia_200020670.jpg",
+                            "../img/www/ia_200020672.jpg",
+                            "../img/www/ia_200020671.jpg",
+                            "../img/www/W02017072155Q3T.jpg"
+                        ],
+                        "price":5297.00,
+                        "size":55
+                    },
+                    {
+                        "id":3,
+                        "type":"Q3T",
+                        "name":"60Q3T 60英寸超轻薄双64位全程4K超清智能液晶平板电视 ",
+                        "title":"UMAX影院系统 HDR电视",
+                        "img":[
+                            "../img/www/W02016112380.jpg",
+                            "../img/www/ia_200019046.jpg",
+                            "../img/www/ia_200018900.jpg",
+                            "../img/www/ia_200019045.jpg",
+                            "../img/www/ia_200020670.jpg",
+                            "../img/www/ia_200020672.jpg",
+                            "../img/www/ia_200020671.jpg",
+                            "../img/www/W02017072160Q3T.jpg"
+                        ],
+                        "price":6297.00,
+                        "size":60
+                    },
+                    {
+                        "id":4,
+                        "type":"Q3T",
+                        "name":"43Q3T 43英寸超轻薄双64位全程4K超清智能液晶平板电视",
+                        "title":"UMAX影院系统 HDR电视",
+                        "img":[
+                            "../img/www/W020161143.jpg",
+                            "../img/www/ia_200019046.jpg",
+                            "../img/www/ia_200018900.jpg",
+                            "../img/www/ia_200019045.jpg",
+                            "../img/www/ia_200020670.jpg",
+                            "../img/www/ia_200020672.jpg",
+                            "../img/www/ia_200020671.jpg",
+                            "../img/www/W0201803143Q3T.jpg"
+                        ],
+                        "price":2399.00,
+                        "size":43
+                    },
+                    {
+                        "id":5,
+                        "type":"Q5N",
+                        "name":"75Q5N 75英寸 全金属4K HDR人工智能电视",
+                        "title":"",
+                        "img":[
+                            "../img/www/W020170407575.jpg",
+                            "../img/www/ia_200018898.jpg",
+                            "../img/www/ia_200018746.jpg",
+                            "../img/www/W020170321S.jpg",
+                            "../img/www/W0201703213S.jpg",
+                            "../img/www/W0201707216775Q5N.jpg"
+                        ],
+                        "price":10997.00,
+                        "size":75
+                    },
+                    {
+                        "id":6,
+                        "type":"Q5N",
+                        "name":"65Q5N 65英寸 全金属4K HDR人工智能电视",
+                        "title":"",
+                        "img":[
+                            "../img/www/W020170407560.jpg",
+                            "../img/www/ia_200018898.jpg",
+                            "../img/www/ia_200018746.jpg",
+                            "../img/www/W020170321S.jpg",
+                            "../img/www/W0201703213S.jpg",
+                            "../img/www/W020170721642660Q5N.jpg"
+                        ],
+                        "price":6997.00,
+                        "size":60
+                    },
+                    {
+                        "id":7,
+                        "type":"Q5N",
+                        "name":"50Q5N 50英寸 全金属4K HDR人工智能电视",
+                        "title":"全金属机身 双色阳极氧化 点阵光控 4K HDR",
+                        "img":[
+                            "../img/www/W020170407550.jpg",
+                            "../img/www/ia_200018898.jpg",
+                            "../img/www/ia_200018746.jpg",
+                            "../img/www/W020170321S.jpg",
+                            "../img/www/W0201703213S.jpg",
+                            "../img/www/W020170721642660Q5N.jpg"
+                        ],
+                        "price":4997.00,
+                        "size":50
+                    },
+                    {
+                        "id":8,
+                        "type":"Q5N",
+                        "name":"43Q5N 43英寸 全金属4K HDR人工智能电视",
+                        "title":"",
+                        "img":[
+                            "../img/www/W020170407543.jpg",
+                            "../img/www/ia_200018898.jpg",
+                            "../img/www/ia_200018746.jpg",
+                            "../img/www/W020170321S.jpg",
+                            "../img/www/W0201703213S.jpg",
+                            "../img/www/W02017072164Q5N.jpg"
+                        ],
+                        "price":4297.00,
+                        "size":43
+                    },
+                    {
+                        "id":9,
+                        "type":"Q5T",
+                        "name":"50Q5T 50英寸AI3.0人工智能4K超高清HDR超薄语音平板LED液晶电视机",
+                        "title":"AI3.0 工智能 4K超高清 HDR",
+                        "img":[
+                            "../img/www/W0201803150Q5T3.jpg",
+                            "../img/www/W0201803150Q5T1.jpg",
+                            "../img/www/W0201803150Q5T2.jpg",
+                            "../img/www/W02018031650Q5T.jpg",
+                            "../img/www/W02018031650Q5T1.jpg",
+                            "../img/www/W0201803165950Q5T.jpg",
+                            "../img/www/W0201803165910750Q5T.jpg",
+                            "../img/www/W02018031659107650Q5T.jpg"
+                        ],
+                        "price":4297.00,
+                        "size":50
+                    },
+                    {
+                        "id":10,
+                        "type":"Q5T",
+                        "name":"58Q5T 58英寸AI3.0人工智能4K超高清HDR超薄语音平板LED液晶电视机",
+                        "title":"AI3.0 工智能 4K超高清 HDR",
+                        "img":[
+                            "../img/www/W0201803150Q5T.jpg",
+                            "../img/www/W0201803150Q5T1.jpg",
+                            "../img/www/W0201803150Q5T2.jpg",
+                            "../img/www/W02018031650Q5T.jpg",
+                            "../img/www/W02018031650Q5T1.jpg",
+                            "../img/www/W0201803165950Q5T.jpg",
+                            "../img/www/W0201803165910750Q5T.jpg",
+                            "../img/www/W02018031659107650Q5T.jpg"
+                        ],
+                        "price":6297.00,
+                        "size":58
+                    },
+                    {
+                        "id":11,
+                        "type":"Q5T",
+                        "name":"55Q5T 55英寸 AI3.0人工智能4K超高清HDR超薄语音平板LED液晶电视机",
+                        "title":"AI3.0 工智能 4K超高清 HDR",
+                        "img":[
+                            "../img/www/W0201803150Q5T4.jpg",
+                            "../img/www/W0201803150Q5T1.jpg",
+                            "../img/www/W0201803150Q5T2.jpg",
+                            "../img/www/W02018031650Q5T.jpg",
+                            "../img/www/W02018031650Q5T1.jpg",
+                            "../img/www/W0201803165950Q5T.jpg",
+                            "../img/www/W0201803165910750Q5T.jpg",
+                            "../img/www/W02018031659107650Q5T.jpg"
+                        ],
+                        "price":5397.00,
+                        "size":55
+                    },
+                    {
+                        "id":12,
+                        "type":"Q6N",
+                        "name":"长虹（CHANGHONG）55Q6N 55英寸AI4.0人工智能4K超高清杜比视界HDR超薄语音平板LED液晶电视机",
+                        "title":"HDR超薄语音平板LED液晶电视机",
+                        "img":[
+                            "../img/www/ia_200003259.jpg",
+                            "../img/www/ia_200003260.jpg",
+                            "../img/www/ia_200003261.jpg",
+                            "../img/www/ia_200003262.jpg",
+                            "../img/www/ia_200003263.jpg",
+                            "../img/www/ia_200003264.jpg",
+                            "../img/www/ia_200003265.jpg",
+                            "../img/www/ia_200003266.jpg",
+                            "../img/www/ia_200003267.jpg",
+                            "../img/www/ia_200003268.jpg",
+                            "../img/www/ia_200003269.jpg",
+                            "../img/www/ia_200003270.jpg"
+                        ],
+                        "price":5997.00,
+                        "size":55
+                    },
+                    {
+                        "id":13,
+                        "type":"Q6N",
+                        "name":"长虹（CHANGHONG）65Q6N 65英寸AI4.0人工智能4K超高清杜比视界HDR超薄语音平板LED液晶电视机",
+                        "title":"CHiQ 全域物联 智慧生活",
+                        "img":[
+                            "../img/www/ia_200003259.jpg",
+                            "../img/www/ia_200003260.jpg",
+                            "../img/www/ia_200003261.jpg",
+                            "../img/www/ia_200003262.jpg",
+                            "../img/www/ia_200003263.jpg",
+                            "../img/www/ia_200003264.jpg",
+                            "../img/www/ia_200003265.jpg",
+                            "../img/www/ia_200003266.jpg",
+                            "../img/www/ia_200003267.jpg",
+                            "../img/www/ia_200003268.jpg",
+                            "../img/www/ia_200003269.jpg",
+                            "../img/www/ia_200003270.jpg"
+                        ],
+                        "price":8997.00,
+                        "size":65
+                    },
+                    {
+                        "id":14,
+                        "type":"Q6N",
+                        "name":"长虹（CHANGHONG）75Q6N 75英寸AI4.0人工智能4K超高清杜比视界HDR超薄语音平板LED液晶电视机",
+                        "title":"",
+                        "img":[
+                            "../img/www/ia_200003259.jpg",
+                            "../img/www/ia_200003260.jpg",
+                            "../img/www/ia_200003261.jpg",
+                            "../img/www/ia_200003262.jpg",
+                            "../img/www/ia_200003263.jpg",
+                            "../img/www/ia_200003264.jpg",
+                            "../img/www/ia_200003265.jpg",
+                            "../img/www/ia_200003266.jpg",
+                            "../img/www/ia_200003267.jpg",
+                            "../img/www/ia_200003268.jpg",
+                            "../img/www/ia_200003269.jpg",
+                            "../img/www/ia_200003270.jpg"
+                        ],
+                        "price":15997.00,
+                        "size":75
+                    },
+                    {
+                        "id":15,
+                        "type":"Q5R",
+                        "name":"65Q5R 65英寸AI3.0人工智能全面屏4K超高清HDR语音平板LED液晶电视机",
+                        "title":"人工智能 语音交互 杜比全景声 杜比视界",
+                        "img":[
+                            "../img/www/W0201804Q5R.jpg",
+                            "../img/www/W0201804Q5R1.jpg",
+                            "../img/www/W0201804Q5R2.jpg",
+                            "../img/www/W0201804Q5R3.jpg"
+                        ],
+                        "price":9997.00,
+                        "size":65
+                    },
+                    {
+                        "id":16,
+                        "type":"Q5R",
+                        "name":"60Q5R 60英寸AI3.0人工智能全面屏4K超高清HDR语音平板LED液晶电视机",
+                        "title":"",
+                        "img":[
+                            "../img/www/W0201804Q5R4.jpg",
+                            "../img/www/W0201804Q5R1.jpg",
+                            "../img/www/W0201804Q5R2.jpg",
+                            "../img/www/W0201804Q5R3.jpg"
+                        ],
+                        "price":8997.00,
+                        "size":60
+                    },
+                    {
+                        "id":17,
+                        "type":"Q5R",
+                        "name":"55Q5R 55英寸AI3.0人工智能全面屏4K超高清HDR语音平板LED液晶电视机",
+                        "title":"水晶悬浮屏 AI3.0",
+                        "img":
+                        ["../img/www/W0201804Q5R5.jpg",
+                        "../img/www/W0201804Q5R1.jpg",
+                        "../img/www/W0201804Q5R2.jpg",
+                        "../img/www/W0201804Q5R3.jpg"],
+                        "price":7997.00,
+                        "size":55
+                    },
+                    {
+                        "id":18,
+                        "type":"Q5K",
+                        "name":"75Q5K 75英寸4K超高清HDR金属超薄人工智能电视",
+                        "title":"",
+                        "img":["../img/www/W0201710014Q5K.jpg",
+                        "../img/www/W0201710014Q5K1.jpg",
+                        "../img/www/W0201710014Q5K2.jpg",
+                        "../img/www/W0201710014Q5K3.jpg",
+                        "../img/www/W0201710014Q5K6.jpg",
+                        "../img/www/W0201710014Q5K5.jpg"],
+                        "price":10997.00,
+                        "size":75
+                    },
+                    {
+                        "id":19,
+                        "type":"Q5K",
+                        "name":"65Q5K 65英寸4K超高清HDR金属超薄人工智能电视 ",
+                        "title":"",
+                        "img":["../img/www/W0201710014Q5K6.jpg",
+                        "../img/www/W0201710014Q5K1.jpg",
+                        "../img/www/W0201710014Q5K2.jpg",
+                        "../img/www/W0201710014Q5K3.jpg",
+                        "../img/www/W0201710014Q5K6.jpg",
+                        "../img/www/W0201710014Q5K5.jpg"],
+                        "price":8997.00,
+                        "size":65
+                    },
+                    {
+                        "id":20,
+                        "type":"Q5K",
+                        "name":"55Q5K 55英寸4K超高清HDR金属超薄人工智能电视",
+                        "title":"远场语音 声纹识别 杜比视界",
+                        "img":["../img/www/W0201710014Q5K7.jpg",
+                        "../img/www/W0201710014Q5K1.jpg",
+                        "../img/www/W0201710014Q5K2.jpg",
+                        "../img/www/W0201710014Q5K3.jpg",
+                        "../img/www/W0201710014Q5K6.jpg",
+                        "../img/www/W0201710014Q5K5.jpg"],
+                        "price":5997.00,
+                        "size":55
+                    },
+                    {
+                        "id":21,
+                        "type":"Q5K",
+                        "name":"50Q5K CHiQ 50英寸4K超高清HDR智能远场语音网络液晶平板长虹启客电视",
+                        "title":"听声识人 投其所好",
+                        "img":["../img/www/W0201710014Q5K9.jpg",
+                        "../img/www/W0201710014Q5K1.jpg",
+                        "../img/www/W0201710014Q5K2.jpg",
+                        "../img/www/W0201710014Q5K3.jpg",
+                        "../img/www/W0201710014Q5K6.jpg",
+                        "../img/www/W0201710014Q5K5.jpg"],
+                        "price":4897.00,
+                        "size":50
+                    },
+                    {
+                        "id":22,
+                        "type":"Q5K",
+                        "name":"43Q5K CHiQ 43英寸4K超高清HDR智能远场语音网络液晶平板长虹启客电视 ",
+                        "title":"",
+                        "img":["../img/www/W0201710014Q5K8.jpg",
+                        "../img/www/W0201710014Q5K1.jpg",
+                        "../img/www/W0201710014Q5K2.jpg",
+                        "../img/www/W0201710014Q5K3.jpg",
+                        "../img/www/W0201710014Q5K6.jpg",
+                        "../img/www/W0201710014Q5K5.jpg"],
+                        "price":3797.00,
+                        "size":43
+                    },
+                    {
+                        "id":23,
+                        "type":"Q5A",
+                        "name":"65Q5A 65英寸OLED有机自发光窄边框人工智能电视（银色）",
+                        "title":"",
+                        "img":["../img/www/W020170524Q5A.jpg",
+                            "../img/www/W020170524Q5A1.jpg",
+                            "../img/www/W020170524Q5A2.jpg",
+                            "../img/www/W020170524Q5A3.jpg",
+                            "../img/www/W020170524Q5A4.jpg"],
+                        "price":19997.00,
+                        "size":65
+                    },
+                    {
+                        "id":24,
+                        "type":"Q5A",
+                        "name":"55Q5A 55英寸OLED有机自发光窄边框人工智能电视（银色） ",
+                        "title":"",
+                        "img":["../img/www/W020170524Q5A5.jpg",
+                        "../img/www/W020170524Q5A1.jpg",
+                        "../img/www/W020170524Q5A2.jpg",
+                        "../img/www/W020170524Q5A3.jpg",
+                        "../img/www/W020170524Q5A4.jpg"
+                    ],
+                        "price":12997.00,
+                        "size":55
+                    },
+                    {
+                        "id":25,
+                        "type":"Q5A",
+                        "name":"长虹（CHANGHONG）75Q6K 75英寸超薄物联网杜比视界HDR电视 ",
+                        "title":"",
+                        "img":[
+                        "../img/www/ia_200019491.jpg",
+                        "../img/www/ia_200019492.jpg",
+                        "../img/www/ia_200019493.jpg",
+                        "../img/www/ia_200019494.jpg",
+                        "../img/www/ia_200019495.jpg",
+                        "../img/www/ia_200019496.jpg"
+                    ],
+                        "price":17997.00,
+                        "size":75
+                    },
+                    {
+                        "id":26,
+                        "type":"Q5A",
+                        "name":"长虹（CHANGHONG）65Q6K 65英寸超薄物联网杜比视界HDR电视 ",
+                        "title":"开机物联电视 关机智能音箱",
+                        "img":[
+                            "../img/www/W020181117Q5A65.jpg",
+                            "../img/www/ia_200019492.jpg",
+                            "../img/www/ia_200019493.jpg",
+                            "../img/www/ia_200019494.jpg",
+                            "../img/www/ia_200019495.jpg",
+                            "../img/www/ia_200019496.jpg"
+                    ],
+                        "price":10997.00,
+                        "size":65
+                    },
+                    {
+                        "id":27,
+                        "type":"Q5A",
+                        "name":"长虹（CHANGHONG）55Q6K 55英寸超薄物联网杜比视界HDR电视 ",
+                        "title":"无缝折弯人工智能双频wifi",
+                        "img":[
+                            "../img/www/W020181117Q5A55.jpg",
+                            "../img/www/ia_200019492.jpg",
+                            "../img/www/ia_200019493.jpg",
+                            "../img/www/ia_200019494.jpg",
+                            "../img/www/ia_200019495.jpg",
+                            "../img/www/ia_200019496.jpg"
+                    ],
+                        "price":6997.00,
+                        "size":55
+                    },
+                    {
+                        "id":28,
+                        "type":"Q5A",
+                        "name":"长虹（CHANGHONG）58Q6K 58寸超薄物联网杜比视界HDR电视",
+                        "title":"",
+                        "img":[
+                            "../img/www/W020181117Q5A58.jpg",
+                            "../img/www/ia_200019492.jpg",
+                            "../img/www/ia_200019493.jpg",
+                            "../img/www/ia_200019494.jpg",
+                            "../img/www/ia_200019495.jpg",
+                            "../img/www/ia_200019496.jpg"
+                    ],
+                        "price":7997.00,
+                        "size":58
+                    }
+                    ]
+                },
+        "gerator":{
+            "Id":"c2",
+            "name":"CHiQ冰箱",
+            "idImg":"../img/www/ia_200000507.png",
+            "list":[
+                    {
+                        "id":29,
+                        "type":"对开门",
+                        "name":"美菱（MeiLing）BCD-537WUP9B 铂光粉玻璃外观 自由嵌入式十字对开冰箱BCD-537WUP9B",
+                        "title":"CHiQ智能、0.1度变频、干湿分鲜、冬眠藏鲜、LECOPLUS光生态保鲜系统",
+                        "img":[ "../img/www/ia_200005176.jpg",
+                            "../img/www/ia_200005177.jpg",
+                            "../img/www/ia_200005178.jpg",
+                            "../img/www/ia_200005179.jpg",
+                            "../img/www/W020180120499274974277.jpg"
+                        ],
+                        "price":8699.00,
+                        "size":150
+                    },
+                    {
+                        "id":30,
+                        "type":"对开门",
+                        "name":"对开门冰箱 BCD-426WPU9X",
+                        "title":"变频风冷 智能远程操控",
+                        "img":[
+                            "../img/www/ia_200020987.jpg",
+                            "../img/www/ia_200020988.jpg",
+                            "../img/www/ia_200020989.jpg",
+                            "../img/www/ia_200020990.jpg",
+                            "../img/www/ia_200020991.jpg",
+                            "../img/www/ia_200020992.jpg"
+                        ],
+                        "price":4399.00,
+                        "size":150
+                    },
+                    {
+                        "id":31,
+                        "type":"对开门",
+                        "name":"BCD-639WUP9B 639升 变频无霜 手机APP控制 钢化玻璃 对开门冰箱（流沙金）",
+                        "title":"金玻十字 变频智慧领鲜",
+                        "img":[
+                            "../img/www/W020160926699123516647.jpg",
+                            "../img/www/W020160926699128633419.jpg",
+                            "../img/www/W020160926699132428642.jpg",
+                            "../img/www/W020160926699136584868.jpg",
+                            "../img/www/W020160926699140511995.jpg"
+                        ],
+                        "price":8999.00,
+                        "size":150
+                    }]
+        },
+        "air":{
+            "Id":"c3",
+            "name":"CHiQ空调",
+            "idImg":"../img/www/ia_200000490.png",
+            "list":[
+                {
+                    "id":32,
+                    "type":"立柜式",
+                    "name":"大3P一级能效 冷暖 立柜式圆柱 变频空调KFR-72LW/Q5W",
+                    "title":"时尚小蛮腰 温柔舒适风",
+                    "img":[ "../img/www/W020190419340545007053.jpg",
+                        "../img/www/W020190419340545686431.jpg",
+                        "../img/www/W020190419340546751217.jpg",
+                        "../img/www/W020190419340547300907.jpg",
+                        "../img/www/W020190419340548389579.jpg",
+                        "../img/www/W020190419340548908342.jpg"
+                    ],
+                    "price":12490.00,
+                    "size":"3p"
+                },
+                {
+                    "id":33,
+                    "type":"立柜式",
+                    "name":"大2P一级能效 冷暖 立柜式圆柱 变频空调KFR-51LW/Q5W",
+                    "title":"时尚小蛮腰 温柔舒适风",
+                    "img":[ "../img/www/W020190419340545007053.jpg",
+                        "../img/www/W020190419340545686431.jpg",
+                        "../img/www/W020190419340546751217.jpg",
+                        "../img/www/W020190419340547300907.jpg",
+                        "../img/www/W020190419340548389579.jpg",
+                        "../img/www/W020190419340548908342.jpg"
+                    ],
+                    "price":7299.00,
+                    "size":"2p"
+                },
+                {
+                    "id":34,
+                    "type":"立柜式",
+                    "name":"长虹（CHANGHONG）3P一级能效人工智能语音王小蛮腰冷暖变频空调KFR-72LW/Q2F",
+                    "title":"语音对聊 随意控制",
+                    "img":[ "../img/www/W020161207609372653774.jpg",
+                        "../img/www/W020161207609372938738.jpg",
+                        "../img/www/W020161207609372808882.jpg"
+                    ],
+                    "price":9190.00,
+                    "size":"3p"
+                },
+                {
+                    "id":35,
+                    "type":"立柜式",
+                    "name":"长虹（CHANGHONG）2P一级能效人工智能语音王小蛮腰冷暖变频空调KFR-51LW/Q2F",
+                    "title":"",
+                    "img":[  "../img/www/W020161207609372653774.jpg",
+                        "../img/www/W020161207609372938738.jpg",
+                        "../img/www/W020161207609372808882.jpg"
+                    ],
+                    "price":8599.00,
+                    "size":"2p"
+                },
+                {
+                    "id":36,
+                    "type":"立柜式",
+                    "name":"3P 圆柱柜式智能变频空调KFR-72LW/Q1N",
+                    "title":"",
+                    "img":[  "../img/www/W020161122711504841269.jpg",
+                        "../img/www/W020161122711687771328.jpg",
+                        "../img/www/W020161122711688049323.jpg",
+                        "../img/www/W020161122711688354249.jpg"
+                    ],
+                    "price":6599.00,
+                    "size":"3p"
+                },
+                {
+                    "id":37,
+                    "type":"立柜式",
+                    "name":"2P 圆柱柜式智能变频空调KFR-51LW/Q1N",
+                    "title":"",
+                    "img":[  "../img/www/W020161122711504841269.jpg",
+                        "../img/www/W020161122711687771328.jpg",
+                        "../img/www/W020161122711688049323.jpg",
+                        "../img/www/W020161122711688354249.jpg"
+                    ],
+                    "price":6490.00,
+                    "size":"2p"
+                },
+                {
+                    "id":38,
+                    "type":"立柜式",
+                    "name":"3P 圆柱式智能冷暖变频空调KFR-72LW/Q1L",
+                    "title":"高端CHiQ 红外智能感应",
+                    "img":[  "../img/www/W020161123593991842322.jpg",
+                        "../img/www/W020161123593991991702.jpg",
+                        "../img/www/W020161123593992085631.jpg",
+                        "../img/www/W020161123593992160759.jpg"
+                    ],
+                    "price":8790.00,
+                    "size":"3p"
+                },
+                {
+                    "id":39,
+                    "type":"立柜式",
+                    "name":"2P 圆柱式智能冷暖变频空调KFR-51LW/Q1L",
+                    "title":"0.1度精微感舒适节能",
+                    "img":[  "../img/www/W020161123593991842322.jpg",
+                        "../img/www/W020161123593991991702.jpg",
+                        "../img/www/W020161123593992085631.jpg",
+                        "../img/www/W020161123593992160759.jpg"
+                    ],
+                    "price":7690.00,
+                    "size":"2p"
+                },
+                {
+                    "id":40,
+                    "type":"立柜式",
+                    "name":"长虹（CHANGHONG）3P 圆柱智能冷暖变频立柜式空调KFR-72LW/Q2C",
+                    "title":"全直流精确变频 APF一级能效",
+                    "img":[  "../img/www/W020170825601489467861.jpg",
+                        "../img/www/W020170825601491632329.jpg",
+                        "../img/www/W020170825601493207589.jpg",
+                        "../img/www/W020170825601497387719.jpg",
+                        "../img/www/W020170825601499553698.jpg"
+                    ],
+                    "price":7392.00,
+                    "size":"3p"
+                },
+                {
+                    "id":41,
+                    "type":"立柜式",
+                    "name":"长虹（CHANGHONG）2P 圆柱智能冷暖变频立柜式空调KFR-51LW/Q2C",
+                    "title":"",
+                    "img":[  "../img/www/W020161123593991842322.jpg",
+                        "../img/www/W020161123593991991702.jpg",
+                        "../img/www/W020161123593992085631.jpg",
+                        "../img/www/W020161123593992160759.jpg"
+                    ],
+                    "price":6392.00,
+                    "size":"2p"
+                },
+                {
+                    "id":42,
+                    "type":"壁挂式",
+                    "name":"空调器KFR-35GW/Q5A+R1 1.5P超一级能效Q5A香槟金壁挂式空调",
+                    "title":"立体环绕风 吹风不吹人",
+                    "img":[  "../img/www/ia_200000190.jpg",
+                        "../img/www/W020200414392129849523.jpg",
+                        "../img/www/W020200414392130017950.jpg",
+                        "../img/www/W020200414392130378813.jpg",
+                        "../img/www/W020200414392130182036.jpg"
+                    ],
+                    "price":3999.00,
+                    "size":"1.5p"
+                },
+                {
+                    "id":43,
+                    "type":"壁挂式",
+                    "name":"1P壁挂式 冷暖 一级能效 变频 启客 空调KFR-26GW/Q5W",
+                    "title":"",
+                    "img":[  "../img/www/ia_200000673.jpg"
+                    ],
+                    "price":6490.00,
+                    "size":"1p"
+                },
+                {
+                    "id":44,
+                    "type":"壁挂式",
+                    "name":"1.5P壁挂式 冷暖 一级能效 变频 启客空调KFR-35GW/Q3C",
+                    "title":"",
+                    "img":[  "../img/www/W020190301648903720569.jpg",
+                        "../img/www/W020190301648904240109.jpg",
+                        "../img/www/W020190301648904839193.jpg",
+                        "../img/www/W020190301648906007360.jpg",
+                        "../img/www/W020190301648906717437.jpg",
+                        "../img/www/W020190301648907294201.jpg"
+                    ],
+                    "price":3099.00,
+                    "size":"1.5p"
+                },
+                {
+                    "id":45,
+                    "type":"壁挂式",
+                    "name":"长虹（CHANGHONG）1.5P壁挂式冷暖一级能效变频启客空调KFR-35GW/Q5W",
+                    "title":"时尚造型 智能清洁",
+                    "img":[  "../img/www/W020190301573268924672.jpg",
+                        "../img/www/W020190301573269537729.jpg",
+                        "../img/www/W020190301573270095666.jpg",
+                        "../img/www/W020190301573270709157.jpg",
+                        "../img/www/W020190301573271235872.jpg",
+                        "../img/www/W020190301573271811891.jpg",
+                        "../img/www/W020190301573272382778.jpg",
+                        "../img/www/W020190301573272934623.jpg"
+                    ],
+                    "price":3999.00,
+                    "size":"1.5p"
+                },
+                {
+                    "id":46,
+                    "type":"壁挂式",
+                    "name":"大1.5P 一级节能 18分贝超静音 语音对聊空调KFR-35GW/Q3N",
+                    "title":"舒适自然风 畅享回归自然感觉",
+                    "img":[  "../img/www/W020171229397640542664.jpg",
+                        "../img/www/W020171229397642775712.jpg",
+                        "../img/www/W020171229397645290548.jpg",
+                        "../img/www/W020171229397646648220.jpg",
+                        "../img/www/W020171229397648508484.jpg"
+                    ],
+                    "price":4299.00,
+                    "size":"1.5p"
+                },
+                {
+                    "id":47,
+                    "type":"壁挂式",
+                    "name":"正1.5P一级能效变频冷暖空调KFR-35GW/Q2C",
+                    "title":"光感睡眠2代技术 APF一级节能省电",
+                    "img":[  "../img/www/W020170825593149428492.jpg",
+                        "../img/www/W020170825593149548930.jpg",
+                        "../img/www/W020170825593149643545.jpg",
+                        "../img/www/W0201708255931497348057.jpg"
+                    ],
+                    "price":3790.00,
+                    "size":"1.5p"
+                },
+                {
+                    "id":48,
+                    "type":"壁挂式",
+                    "name":"正1P一级能效变频冷暖空调KFR-26GW/Q2C",
+                    "title":"",
+                    "img":[  "../img/www/W020170825590025044277.jpg",
+                        "../img/www/W020170825590025166433.jpg",
+                        "../img/www/W020170825590025271619.jpg",
+                        "../img/www/W020170825590025748468.jpg"
+                    ],
+                    "price":3590.00,
+                    "size":"1.5p"
+                },
+                {
+                    "id":49,
+                    "type":"壁挂式",
+                    "name":"大1.5P 一级能效 智能冷暖空调 KFR-35GW/Q3Fs",
+                    "title":"",
+                    "img":[  "../img/www/W020180124395257783645.jpg",
+                        "../img/www/W020180124395261898753.jpg",
+                        "../img/www/W020180124395266763020.jpg",
+                        "../img/www/W020180124395270930046.jpg",
+                        "../img/www/W020180124395272864560.jpg"
+                    ],
+                    "price":0.00,
+                    "size":"1.5p"
+                },
+                {
+                    "id":50,
+                    "type":"壁挂式",
+                    "name":"1.5P一级能效变频空调KFR-35GW/Q1NC",
+                    "title":"一级节能变频 舒适节能新主张",
+                    "img":[  "../img/www/W020170603551262320625.jpg",
+                        "../img/www/W020170603551262472344.jpg",
+                        "../img/www/W020170603551262607359.jpg",
+                        "../img/www/W020170603551262733595.jpg",
+                        "../img/www/W020170603551262864270.jpg"
+                    ],
+                    "price":3790.00,
+                    "size":"1.5p"
+                },
+                {
+                    "id":51,
+                    "type":"壁挂式",
+                    "name":"大1P一级能效变频空调KFR-26GW/Q1N",
+                    "title":"17分贝舒适静音、二代物联网直连",
+                    "img":[  "../img/www/W020170603553006538245.jpg",
+                        "../img/www/W020170603544607899510.jpg",
+                        "../img/www/W020170603544608041629.jpg",
+                        "../img/www/W020180123494331699761.jpg",
+                        "../img/www/W020170603544608378293.jpg"
+                    ],
+                    "price":3790.00,
+                    "size":"1p"
+                }
+            ]
+        }
+        }
+    }

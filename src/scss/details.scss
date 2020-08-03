@@ -1,0 +1,435 @@
+@import"reset","public","common","ldpublic";
+@mixin btn {
+    display: block;
+    float: left;
+    width: 38px;
+    height: 100%;
+    line-height: 34px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #d4d4d4;
+}
+// 内容
+section{
+    position: relative;
+    .set_top{
+        line-height: 47px;
+        color: #000;
+        font-size: 14px;
+        height: 47px;
+        background: #f3f3f3;
+        border-bottom: 1px solid #d7d7d7;
+        a{
+            color: #000;
+        }
+    }
+    .sec_con{
+        .sec_s{
+            min-height:676px;
+            .sec_conl{
+                float: left;
+                padding-top: 25px;
+                width: 512px;
+                height: 512px;
+                position: relative;
+                margin-right: 70px;
+                .box{
+                    margin: 0px auto;
+                    width:510px;
+                    height: 510px;
+                    margin-right: 5px;
+                    img{
+                    width:510px;
+                    height: 510px;
+                    }
+                    span{
+                        display: none;
+                        position: absolute;
+                        top:25px;
+                        left: 0px;
+                        width:255px;
+                        height:255px;
+                        background: #F8B600;
+                        border: 1px solid #987777;
+                        opacity: 0.4;
+                    }
+                }
+                .bigBox{
+                    display: none;
+                    position: absolute;
+                    z-index: 200;
+                    left:512px;
+                    top:25px;
+                    background: #fff;
+                    margin: 0px auto;
+                    width:510px;
+                    height: 510px;
+                    overflow: hidden;
+                    img{
+                    position: absolute;
+                    width:1020px;
+                    height: 1020px;
+                    top:0px;
+                    left:0px;
+                    }
+                }
+                .min_shop{
+                    margin-top: 20px;
+                    width: 512px;
+                    height: 85px;
+                    @include fle();
+                    .mins{
+                        overflow: hidden;
+                        width:472px;
+                        height: 88px;
+                        @include fle();
+                        position: relative;
+                        .move1{
+                            position: absolute;
+                            top:1px;
+                            left:12px;
+                            div{
+                                float: left;
+                                width:85px;
+                                height:85px;
+                                margin-right: 5px;
+                                border:1px solid #ddd;
+                                img{
+                                    width:85px;
+                                    height:85px;
+                                }
+                                }
+                            .acm{
+                                border:1px solid #f12020;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+            .sec_conr{
+                float: left;
+                padding-top: 25px;
+                width: 512px;
+                height: 512px;
+                .t_text{
+                    .t_tl1{
+                        padding-top: 20px;
+                        padding-bottom: 8px;
+                        width: 100%;
+                        border-bottom: 1px solid #e1e1e1;
+                        h2{
+                            float: left;
+                            width: 335px;
+                            line-height: 28px;
+                            color: #000;
+                            font-size: 16px;
+                            font-weight: normal;
+                        }
+                        a{
+                            display: block;
+                            float: right;
+                            margin-top: 10px;
+                            width: 68px;
+                            height: 22px;
+                            line-height: 22px;
+                            text-align: center;
+                            border: 1px solid #ddd;
+                            color: #333;
+                            font-size: 14px;
+                            background: #f1f1f1;
+                        }
+                        
+                    }
+                    .t_tl2{
+                        padding-top: 20px;
+                        height:80px;
+                        border-bottom: 1px solid #e1e1e1;
+                        color:#f12020;
+                        font-size: 23px;
+                        font-weight: bold;
+                    }
+                    .t_tl3{
+                        height:127px;
+                        border-bottom: 1px solid #e1e1e1;
+                        .map{
+                            padding-top: 25px;
+                            position: relative;
+                            span{
+                                display: block;
+                                float: left;
+                                height: 30px;
+                                line-height: 30px;
+                                font-size: 14px;
+                            }
+                            .map_c{
+                            min-width:70px;  
+                            padding:0px 30px; 
+                            height: 28px;
+                            line-height: 28px;
+                            border: 1px solid #e1e1e1;
+                            text-align: center;
+                            margin-bottom: 25px;
+                                h1{
+                                    font-size: 12px;
+                                    font-weight: 500;
+                                    
+                                    i{
+                                        display:inline-block;
+                                        border:5px solid transparent;
+                                        border-top-color: #333;
+                                    }
+                                }
+                            }
+                            .map_t{
+                                display: none;
+                                position: absolute;
+                                top:55px;
+                                left:70px;
+                                min-width: 430px;
+                                background: #fff;
+                                border: 1px solid #e1e1e1;
+                                padding: 0px 15px;
+                            .cs{
+                                @include fle();
+                                padding-top: 7px;
+                                justify-content: start;
+                                width: 430px;
+                                min-height: 30px;
+                                border-bottom: 1px solid #f12;
+                                    li{
+                                        width: 72px;
+                                        line-height: 30px;
+                                        text-align: center;
+                                        height: 30px;
+                                        background: none;
+                                        border: 1px solid #dddddd;
+                                        border-bottom: none;
+                                        margin: 9px 5px 0px 0px;
+                                    }
+                                    .acp{
+                                        border: 1px solid #f12;
+                                        border-bottom:none;
+                                    }
+                                }
+                            .map_x{
+                                min-height:10px ;
+                                span{
+                                padding:10px;
+                                }
+                            }
+                            }
+                        }
+                    }
+                    .t_tl4{
+                        padding-top:35px;
+                        line-height: 36px;
+                        .sum{
+                             .jian{
+                            @include btn();
+                            border-right: none;
+                            }
+                            .jia{
+                                @include btn();
+                                border-left: none;
+                            }
+                            .num{
+                                @include btn();
+                                height:36px;
+                                outline: none;
+                            }
+                        }
+                        .shop{
+                            button{
+                                background: #fff;
+                                border: 1px solid #999;
+                                color: #666;
+                                margin-top: 30px;
+                                width: 178px;
+                                height: 40px;
+                                margin-right: 10px;
+                                text-align: center;
+                                line-height: 40px;
+                                font-size: 14px;
+                            }
+                            .gouM{
+                                background: #f12020;
+                                border: 1px solid #f12020;
+                                color: #fff;
+                            }
+                            .add:hover{
+                                border: 1px solid #f12020;
+                                color:#f12020;
+                            }
+                        }
+                        .cz{
+                            @include fle();
+                            justify-content: start;
+                            p{
+                                font-size: 14px;
+                                margin-right: 30px;
+                                img{
+                                    margin-right: 3px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .sec_conx{
+            .chanpin{
+                @include fle();
+                justify-content: start;
+                margin: 0 auto;
+                margin-top: 18px;
+                width: 1226px;
+                height: 60px;
+                border: 1px solid #cfcfcf;
+                background: #fff;
+                margin-bottom: 18px;
+                li{
+                    padding:0px 43px;
+                    border-right: 1px solid #cfcfcf;
+                    a{
+                        color: #333;
+                        padding-bottom:18px ;
+                    }
+                    .acta{
+                        border-bottom: 2px solid #f12020;
+                    }
+                }
+                li:last-child{
+                    border:none;
+                }
+            }
+            .scon{
+                min-height: 60px;
+                border: 1px solid #cfcfcf;
+                background: #fff;
+                margin-bottom: 18px;
+                position: relative;
+                div{
+                    display: none;
+                    img{
+                        width: 1224px;
+                    }
+                }
+                .actDiv{
+                    display: block;
+                }
+                p{
+                    padding:30px 0px;
+                    height:30px;
+                    line-height: 30px;
+                    text-align: center;
+                }
+            }
+            .scp{
+                min-height: 54px;
+                border: 1px solid #cfcfcf;
+                background: #fff;
+                margin-bottom: 18px;
+                @include fle();
+                justify-content: start;
+                li{
+                    padding:0px 43px;
+                    font-size: 12px;
+                    border-right: 1px solid #cfcfcf;
+                }
+                .red{
+                    color:#f12020;
+                    font-weight: bold;
+                }
+                li:last-child{
+                    border-right: none;
+                }
+            }
+            .pj{
+                height: 174px;
+                line-height: 174px;
+                text-align: center;
+            }
+        }
+        .sec_conf{
+            h4{
+                padding:23px;
+                font-size: 16px;
+                font-weight: normal;
+                color:#f12020;
+            }
+            .z_lan{
+                display: grid;
+                grid-template-rows:repeat(1,300px);
+                grid-template-columns:repeat(5,240px);
+                grid-gap:10px;
+                margin-bottom: 90px;
+                .sec{
+                    background: #fff;
+                    padding:20px 28px 10px;
+                    img{
+                        width:190px;
+                        height:190px;
+                    }
+                    div{
+                        font-size: 14px;
+                        color: #000;
+                        @include slh();
+                    }
+                    p{
+                        line-height: 18px;
+                        margin-top: 10px;
+                        height: 20px;
+                        overflow: hidden;
+                    }
+                    .jg{
+                        color: #f12020;
+                        font-size: 16px;
+                        display: block;
+                        .pj{
+                            float: right;
+                            font-size: 12px;
+                            color: #999999;
+                            line-height: 22px;
+                            }
+                    }
+                    
+                    ul{
+                        li{
+                        border: 1px solid #ebebeb;
+                        padding:0px 3px;
+                        height: 30px;
+                        color: #000;
+                        line-height: 30px;
+                        font-size: 12px;
+                        float: left;
+                        img{
+                            width:14px;
+                            height:14px;
+                            margin-right: 2px;
+                        }
+                        input{
+                            vertical-align: middle;
+                        }
+                        }
+                        li:last-child{
+                        color: #f12020;
+                        }
+                        li:last-child:hover{
+                            border: 1px solid #f12020;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .kf{
+        position: absolute;
+        top:500px;
+        right: 0px;
+        li{
+            margin-bottom: 1px;
+        }
+        
+    }
+}

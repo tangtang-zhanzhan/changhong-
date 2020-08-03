@@ -1,0 +1,140 @@
+@import"reset";
+// 底部
+footer{
+    .foot{
+        background: #efefef;
+        .foot_s{
+            min-height:116px;
+            border-bottom: 1px solid #dddddd;
+            ul{
+                padding:0px 30px ;
+                height:100%;
+                @include fle();
+                padding-top:58px;
+                justify-content: space-between;
+                li{
+                    @include fle();
+                    p{
+                        margin-left: 10px;
+                        font-weight: bold;
+                        color: #000;
+                        font-size: 16px;
+                        line-height: 20px;
+                        span{
+                            font-size: 12px;
+                            color:#999;
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+        .foot_x{
+            @include fle();
+            justify-content: space-between;
+            align-items: flex-start;
+            padding:35px 118px;
+            .foox_l{
+                width:530px;
+                padding-left: 100px;
+                align-items: flex-start;
+                dl{
+                    margin-right: 35px;
+                    dt{
+                        font-size: 16px;
+                        color:#000;
+                        line-height:40px;
+                    }
+                    dd{
+                        display: block;
+                        font-size: 12px;
+                        color:#999;
+                        line-height:30px;
+                        @include hend();
+                    }
+                    dd:hover{
+                        color:#f12020;
+                    }
+                }
+                p{
+                    border-top:1px solid #999;
+                    margin-right: 50px;
+                    width:165px;
+                    line-height: 70px;
+                    font-size: 16px;
+                    color:#000;
+                    text-align: right;
+                }
+                p:hover{
+                    color:#f12020;
+                }
+            }
+            .foox_c{
+                min-height: 150px;
+                padding:0px 50px;
+                border-left:1px solid #999;
+                border-right:1px solid #999;
+                ul{
+                    @include fle();
+                    flex-direction:column;
+                    align-items: flex-start;
+                    li{
+                        line-height: 30px;
+                        cursor: pointer;
+                        img{
+                            margin-right: 6px;
+                        }
+                    }
+                    li:first-child{
+                        color: #f12020;
+                    }
+                    li:nth-child(2){
+                        color: #f12020;
+                    }
+                }
+            }
+            .foox_r{
+                margin-right: 50px;
+                ul{
+                    @include fle();
+                    li{
+                        margin-left: 20px;
+                        img{
+                            width:108px;
+                            height:108px;
+                        }
+                        p{
+                            color:#000;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .foot1{
+        background: #333333;
+        .foot1_m{
+            height: 224px;
+            @include fle();
+            flex-direction: column;
+            justify-content: space-evenly;
+            img{
+                margin-bottom: 10px;
+            }
+            ul{
+                width: 100%;
+                @include fle();
+                margin-bottom: 30px;
+                li{
+                    height: 20px;
+                    img{
+                        width:20px;
+                        height:20px;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

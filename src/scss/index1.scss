@@ -1,0 +1,359 @@
+@import"public","common","reset";
+// 头部
+.header_t{
+    background: #fff;
+    .heat{
+        border-bottom:1px solid #d5d5d5;
+        .main{
+            @include fle();
+        img{
+            margin-right: 40px;
+            height: 78px;
+        }
+        .lis{
+            @include fle();
+            li{
+                width:90px;
+                height:78px;
+                text-align: center;
+                line-height: 78px;
+                a:hover{ color: #f12020;   }
+                a{ color: #000; }
+                }
+            li:first-child a{
+            color: #f12020;
+            }
+        }
+        .in{
+            height:38px;
+            width:200px;
+            border:1px solid #e3e3e3;
+            input{
+                height:38px;
+                width: 150px;
+                color: #e1e0e0;
+                outline: none;
+                line-height: 38px;
+                text-indent: 20px;
+            }
+            .lie{
+                display: none;
+                border:1px solid #e3e3e3;
+                width:200px;
+                height:188px;
+                background: #fff;
+                position: relative;
+                z-index: 500;
+                p{
+                    padding: 0px 2px;
+                    line-height: 30px;
+                }
+                .act1{
+                    color: #f12020;
+                }
+            }
+        }
+        }
+        }
+    // 推荐框
+.reCom{
+    width: 100%;
+    background: #fff;
+    display: none;
+    position: absolute;
+    top:110px;
+    left:0%;
+    z-index: 50;
+    margin-bottom:10px ;
+    .rec{
+        ul{
+            @include fle();
+            padding-top: 20px;
+            li{
+                width:160px;
+                a{
+                    width:130px;
+                    display: block;
+                    border-right: 1px solid #e1e0e0;
+                    padding-right: 50px;
+                    img{
+                        width:135px;
+                        height:135px;
+                    }
+                }
+                div{
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+                p{
+                    text-align: center;
+                    color: #f12020;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+    }
+// 轮播图
+nav{
+    min-height:500px;
+    .banner{
+        position: relative;
+        .ben{
+            display: none;
+            position: absolute;
+            top:0px;
+            left:50%;
+            margin-left:-960px;
+            @include hend();
+        }
+        .actDiv{
+            display: block;
+        }
+        ol{
+            position: absolute;
+            top:475px;
+            right:40px;
+            z-index: 5;
+            @include fle();
+            li{
+                width:8px;
+                height:8px;
+                margin-right: 5px;
+                border-radius: 50%;
+                background: #fff;
+            }
+            .actLi{
+                background: #f12020;
+            }
+        }
+        .navLe{
+            width:226px;
+            height:480px;
+            position: absolute;
+            top:0px;
+            left:0px;
+            z-index: 5;
+            background: rgba(0,0,0,.4);
+            li{
+                height:60px;
+                line-height: 60px;
+                padding-left: 25px;
+                color: #fff;
+            }
+            .last{
+                padding-left: 75px;
+            }
+            .ulList{
+                @include hend();
+                display: none;
+                width:400px;
+                height:476px;
+                position: absolute;
+                top:0px;
+                left:226px;
+                background: #fff;
+                padding:10px 25px;
+                .ulList_s{
+                    line-height: 60px;
+                    img{
+                        width:60px;
+                        height:60px;
+                        float: left;
+                        margin-right: 20px;
+                        margin-bottom: 20px;
+                    }
+                    border-bottom:1px solid #eeeeee;
+                }
+                .ulList_x{
+                    margin-bottom: 20px;
+                    ul{
+                        li{
+                        float: left;
+                        height: 20px;
+                        line-height: 20px;
+                        margin: 10px 0px;
+                        padding:0px 10px;
+                        color:#ababab;
+                        border-left:1px solid #eeeeee;
+                            }
+                        }
+                    }
+            }
+        }
+    }
+}
+section{
+    position: relative;
+    .main{
+        position: relative;
+         // 内容第一部分
+    .box1{
+        margin-bottom: 20px;
+        h4{
+            font-weight: 500;
+            text-indent: 20px;
+        }
+        .box_1{
+            @include fle();
+            @include hend();
+            .box_1l{
+                width:226px;
+                height:160px;
+                @include griMin();
+                .bo1_1{
+                    background: #585858;
+                    text-align: center;
+                    line-height: 40px;
+                    color: #fff;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    // 内容第二部分电视
+    .box2{
+        margin-bottom: 40px;
+        .box2_t{
+        @include box2_t();
+        }
+        .box2_s{
+            @include griMax();
+        }
+        .bos_m{
+            @include col();
+        }
+        .bos_i{
+            @include bos_i();
+        }
+        .bos_i:hover{
+            @include hover();
+        }
+    }
+    // 内容第三部分空调
+    .box3{
+        margin-bottom: 40px;
+        .box3_t{
+            @include box2_t();
+            h4{border-left: 4px solid #759dfc;}
+            a{
+                color:#759dfc;
+            }
+        }
+        .box3_s{
+            @include griMax();
+        }
+        .bos_m{
+            @include col();
+        }
+        .bos_i{
+            @include bos_i();
+        }
+        .bos_i:hover{
+            @include hover();
+        }
+    }
+    // 内容第四部分冰洗
+    .box4{
+        margin-bottom: 40px;
+        .box4_t{
+            @include box2_t();
+            h4{border-left: 4px solid #ff9c00;}
+            a{
+                color:#ff9c00;
+            }
+        }
+        .box4_s{
+            @include griMax();
+        }
+        .bos_m{
+            @include col();
+        }
+        .bos_i{
+            @include bos_i();
+        }
+        .bos_i:hover{
+            @include hover();
+        }
+    }
+    // 内容第五部分生活家电
+    .box5{
+        margin-bottom: 40px;
+        .box5_t{
+            @include box2_t();
+            h4{border-left: 4px solid #c59ac7;}
+            a{
+                color:#c59ac7;
+            }
+        }
+        .box5_s{
+            @include griMax();
+        }
+        .bos_m{
+            @include col();  
+        }
+        .bos_i{
+            @include bos_i();
+        }
+        .bos_i:hover{
+            @include hover();
+        }
+    }
+    // 内容第六部分周边产品
+    .box6{
+        margin-bottom: 40px;
+        .box6_t{
+            @include box2_t();
+            h4{    border-left: 4px solid #ff9c00;}
+        }
+        .box6_s{
+            @include gridM();
+        }
+        .bos_i{
+            @include bos_i();
+        }
+        .bos_i:hover{
+            @include hover();
+        }
+    }
+    .cb{
+        display: none;
+        position: absolute;
+        top:30px;
+        left:-50px;
+        li{
+            a{
+                width:40px;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+                display:block;
+                color:#666;
+                border-bottom: 1px solid #999;
+            }
+            .actcb{
+                background: #ee1411;
+                color: #fff;
+                border: none;
+            }
+            .actb{
+                background: #ee1411;
+                color: #fff;
+                border: none;
+            }
+        }
+        
+    }
+    }
+    .kf{
+        position: absolute;
+        top:40px;
+        right: 0px;
+        li{
+            margin-bottom: 1px;
+        }
+        
+    }
+}

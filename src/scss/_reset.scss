@@ -1,0 +1,147 @@
+@charset "UTF-8";
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,textarea,p,a,span{ margin: 0; padding: 0;}
+img{ border:0; vertical-align:middle;}
+ul,li{list-style:none;}
+button,input,textarea{outline:none;border: none;}
+textarea{resize: none;}
+body{font-family: "Microsoft YaHei", "微软雅黑", "Arial", sans-serif;color:#666;min-width:1345px;}
+a{text-decoration:none;}
+a:hover{color: #f12020}
+.clearfix{*zoom:1;} /* 针对IE7 hack，触发IE7的haslayout，以清除浮动 */
+.clearfix:before,.clearfix:after{display:table;content:"";line-height:0;}
+.clearfix:after{clear:both;}
+.lf{float: left;}
+.rt{float: right;}
+.main{ width: 1226px; margin: 0 auto;}
+body{
+    background: #f9f9f9;
+}
+@mixin ges {
+    text-align: center;
+    padding:0px 15px;
+}
+@mixin talge {
+    position: absolute;
+    display: none;
+    border:1px solid #333;
+    background: #fff;
+    z-index: 200;
+    top:100%;
+    left:0%;
+}
+@mixin fle {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+@mixin hend {
+    cursor: pointer;
+}
+@mixin slh {
+        width:100%;
+        white-space:nowrap;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        font-size: 16px;
+        text-align: center;
+}
+@mixin griMax1 {
+    display: grid;
+    grid-template-rows:repeat(2,360px);
+    grid-template-columns:repeat(4,240px);
+    grid-gap:10px;
+}
+@mixin griMin1 {
+    display: grid;
+    grid-template-rows:repeat(1,300px);
+    grid-template-columns:repeat(4,240px);
+    grid-gap:10px;
+}
+@mixin griMin {
+    display: grid;
+    grid-template-rows:repeat(2,79px);
+    grid-template-columns:repeat(2,113px);
+    grid-gap:2px;
+}
+@mixin slh {
+    width:100%;
+        white-space:nowrap;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        font-size: 16px;
+        text-align: center;
+}
+@mixin griMax {
+    display: grid;
+    grid-template-rows:repeat(2,310px);
+    grid-template-columns:repeat(5,240px);
+    grid-gap:6px;
+}
+@mixin gridM {
+    display: grid;
+    grid-template-rows:repeat(1,310px);
+    grid-template-columns:repeat(5,240px);
+    grid-gap:6px;
+}
+@mixin hover {
+    box-shadow: 0px 0px 10px 2px rgb(212, 211, 211);
+}
+@mixin col {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    img{height:626px;}
+    @include hend();
+}
+@mixin box2_t {
+    margin-bottom: 10px;
+    h4{
+        border-left: 4px solid #ca694e;
+        padding: 0px 15px;
+        font-size: 23px;
+        font-weight: 500;
+        margin-right: 20px;
+    }
+    a{
+        display: inline-block;
+        color: #8a4532;
+        line-height: 35px;
+        font-size: 16px;
+        @include hend();
+    }
+    ul{
+        @include fle();
+        li{
+            padding:0px 20px;
+            @include hend();
+        }
+    }
+}
+@mixin bos_i{
+    @include hend();
+    padding:40px 30px;
+    background: #fff;
+    img{
+        width:160px;
+        height:160px;
+    }
+    div{
+        @include slh();
+    }
+    span{
+        display: block;
+        @include slh();
+        font-size: 12px;
+        text-align: center;
+        color: #999;
+    }
+    p{
+        color:#f12020;
+        text-align: center;
+        span{
+            color:#f12020; 
+            display: inline;
+        }
+    }
+}
