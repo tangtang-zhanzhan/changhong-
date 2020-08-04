@@ -5,14 +5,14 @@ header{
         min-height: 36px;
             .list{
                 @include fle();
-                li{
+                >li{
                     width:145px;
                     height:36px;
                     line-height: 36px;
                     font-size: 12px;
                     @include ges();
                     position: relative;
-                    a{
+                    >a{
                         color:#fff;
                         img{
                             margin-right: 5px;
@@ -31,76 +31,142 @@ header{
                         color:#f12020;
                     }
                     }
-                    li:nth-child(4){
-                        margin-right: 55px;
-                    }
-                    li:nth-child(5):hover{
-                        background: #333;
-                    }
-                    li:first-child{
-                        background: #555;
-                    }
-                    li:hover{
-                        background: #555;
-                    }
-                    .tal1{
-                        display: none;
-                        width:190px;
-                        height:200px;
-                        padding: 10px 30px;
-                        @include talge();
-                        border: none;
-                        box-shadow: 0px 0px 5px 3px #e1e0e0;
-                        .nh{
-                            font-size: 16px;
-                            a{
-                                color:blue;
-                            }
-                            a:hover{
-                                color:#f12020;
-                            }
+                >li:nth-child(4){
+                    margin-right: 55px;
+                }
+                li:nth-child(5):hover{
+                    background: #333;
+                }
+                li:nth-child(8) span{
+                    font-weight: bold;
+                    color: #f12020;
+                }
+                >li:first-child{
+                    background: #555;
+                }
+                >li:hover{
+                    background: #555;
+                }
+                .tal1{
+                    display: none;
+                    width:190px;
+                    height:200px;
+                    padding: 10px 30px;
+                    @include talge();
+                    border: none;
+                    box-shadow: 0px 0px 5px 3px #e1e0e0;
+                    .nh{
+                        font-size: 16px;
+                        a{
+                            color:blue;
                         }
-                        .zh{
-                            a{
-                                color:blue;
-                            }
-                            a:hover{
-                                color:#f12020;
-                            }
+                        a:hover{
+                            color:#f12020;
                         }
-                        .tal_s{
-                            p{
-                                height:20px;
-                                line-height: 20px;
-                                color:#cfcfcf;
-                                margin-bottom: 5px;
+                    }
+                    .zh{
+                        a{
+                            color:blue;
+                        }
+                        a:hover{
+                            color:#f12020;
+                        }
+                    }
+                    .tal_s{
+                        p{
+                            height:20px;
+                            line-height: 20px;
+                            color:#cfcfcf;
+                            margin-bottom: 5px;
+                            margin-top: 10px;
+                            cursor: pointer;
+                        }
+                        p:hover{
+                            color:#f12020;
+                        }
+                        p:nth-child(even){
+                            padding-left: 43px;
+                        }
+                        p:nth-child(odd){
+                            padding-right: 43px;
+                            border-right:1px solid #cfcfcf;;
+                        }
+                    }
+                }
+                .gzh{
+                    @include talge();
+                    border: none;
+                }
+                .gw{
+                    @include talge;
+                    width:150%;
+                    @include ges;
+                    left:-72%;
+                    line-height: 50px;
+                    border: 1px solid #ccc;
+                }
+                .sp{
+                    position: absolute;
+                    left:-117%;
+                    z-index: 300;
+                    background: #fff;
+                    min-height: 150px;
+                    display: none;
+                    ul{
+                        width:314px;
+                        min-height:100px ;
+                        li{
+                            h3{
+                                font-weight: 500;
+                                padding:19px 21px 0px;
+                                line-height:20px;
+                                text-align: start;
+                            }
+                            .pcs{
                                 margin-top: 10px;
-                                cursor: pointer;
-                            }
-                            p:hover{
-                                color:#f12020;
-                            }
-                            p:nth-child(even){
-                                padding-left: 43px;
-                            }
-                            p:nth-child(odd){
-                                padding-right: 43px;
-                                border-right:1px solid #cfcfcf;;
+                                @include fle;
+                                height:43px;
+                                >span{
+                                    color:#f12020;
+                                }
+                                >.a{
+                                    display: block;
+                                    width:50px;
+                                    color: #000;
+                                }
                             }
                         }
                     }
-                    .gzh{
-                        @include talge();
-                        border: none;
-                    }
-                    .gw{
-                        @include talge();
-                        width:150%;
-                        @include ges();
-                        left:-72%;
+                    .hj{
+                    @include fle;
+                    padding-left: 20px;
+                    justify-content: space-between;
+                    height:  50px;
+                    background: #ccc; 
+                    .xx{
+                        @include fle;
+                        justify-content: space-around;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        b{
+                            font-weight: 500;
+                            color: #f12020;
+                        }
+                        >span{
+                        color: #f12020;
+                        }
+                    }  
+                    button{
+                        width: 120px;
+                        height:50px;
+                        background: #f12020;
+                        color: #fff;
+                        text-align: center;
                         line-height: 50px;
-                        border: 1px solid #ccc;
+                    }     
                     }
+                }
+
             }
     }
 }

@@ -49,7 +49,7 @@ function get(){
                             location.href=pth
                         }else{
                             alert("登录成功，稍后首页页面")
-                            location.href="../html/index1.html"
+                            location.href="../html/index.html"
                         }
                     }else{
                         alert(res.mag)
@@ -70,7 +70,7 @@ function get(){
                             location.href=pth
                         }else{
                             alert(res.mage)
-                            location.href="../html/index1.html"
+                            location.href="../html/index.html"
                         }
                         $.cookie("phone",phone,{ expires: 7, path: '/' })
                     }else{

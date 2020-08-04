@@ -18,7 +18,12 @@
                 text-align: center;
                 line-height: 78px;
                 a:hover{ color: #f12020;   }
-                a{ color: #000; }
+                a{ 
+                    display: block;
+                    color: #000; 
+                    width:100%;
+                    height:100%;
+                }
                 }
             li:first-child a{
             color: #f12020;
@@ -28,14 +33,24 @@
             height:38px;
             width:200px;
             border:1px solid #e3e3e3;
-            input{
+           .sou{
+                height:38px;
+                input{
                 height:38px;
                 width: 150px;
                 color: #e1e0e0;
                 outline: none;
                 line-height: 38px;
                 text-indent: 20px;
-            }
+                }
+                i{
+                    display: inline-block;
+                    width:30px;
+                    height:36px;
+                    background: #fff url("../img/b2b/pro-result-btn-icon_04.png") no-repeat;
+                }
+                }
+            
             .lie{
                 display: none;
                 border:1px solid #e3e3e3;
@@ -57,19 +72,19 @@
         }
     // 推荐框
 .reCom{
+    height:0px;
     width: 100%;
     background: #fff;
-    display: none;
     position: absolute;
     top:110px;
     left:0%;
     z-index: 50;
     margin-bottom:10px ;
     .rec{
-        ul{
+        >ul{
             @include fle();
             padding-top: 20px;
-            li{
+            >li{
                 width:160px;
                 a{
                     width:130px;

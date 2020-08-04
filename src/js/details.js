@@ -14,7 +14,7 @@ if(tp2.indexOf("&")!=-1){
 // 内容加载
 if(!tale){
     alert("请先选择商品")
-    location.replace("../html/index1.html")
+    location.replace("../html/index.html")
 }else{// 内容加载
 function addDom(){
     if(tp3){

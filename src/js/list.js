@@ -2,7 +2,7 @@
 var teal=location.search
 if(!teal){
     alert("请从首页选择商品种类")
-    location.replace("../html/index1.html")
+    location.replace("../html/index.html")
 }else{
         var tae=teal.slice(1,teal.length).split("=")[1]
         var tel=teal.slice(1,teal.length)
