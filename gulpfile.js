@@ -9,13 +9,12 @@ const watch = require('gulp-watch');
 let htmHeader=()=>{
     return  gulp.src("src/html/*.html")
     .pipe(minHTML({
-        removeComments:true,
-        collapseBooleanAttributes:true,
-        removeEmptyAttributes:true,
-        removeScriptTypeAttributes:true,
-        removeStyleLinkTypeAttributes:true,
-        minifyJS:true,
-        minifyCSS:true
+        removeAttributeQuotes:true,//移除属性上的双引号
+        removeComments:true,//移除注释
+        collapseWhitespace:true,//移除所有空格,会变成一行代码
+        minifyCSS:true,//把页面里面style标签里面的css样式也去空格
+        minifyJS:true,//把页面里面script标签里面的js代码也去空格
+        collapseBooleanAttributes:true//把值为布尔值的属性简写
     }))
     .pipe(gulp.dest('dist/html/'))
 }
